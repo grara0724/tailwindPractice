@@ -28,3 +28,7 @@
 .btn-blue:hover {
   @apply bg-blue-600;
 }
+
+.navber-tag:hover {
+  @apply text-selected-text transition-all duration-300;
+}

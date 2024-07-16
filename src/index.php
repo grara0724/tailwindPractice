@@ -5,53 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ポートフォリオサイト</title>
 </head>
 
-<body>
-    <div class="border border-blue-400 py-16 px-16 my-20">
-        <h1 class="lg:text-7xl font-bold text-3xl sm:text-red-400 md:text-blue-400 lg:text-green-400 xl:text-red-400 2xl:text-blue-400">
-            TailwindCSS入門
-        </h1>
-    </div>
-
-    <button class="easy-button">ボタン</button>
-
-    <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded ml-10">ボタン</button>
-
-    <button class="btn-blue btn">ボタン</button>
-
-    <button class="btn-blue1">ボタン</button>
-    <button class="btn bg-primary-100">ボタン</button>
-
-    <div class="flex gap-4 mt-10 ml-10">
-        <div class="peer group cursor-pointer grid place-items-center h-40 w-40 bg-blue-400 hover:bg-purple-400 transition-colors duration-500">
-            <div class="h-10 w-10 bg-black group-hover:bg-red-600 transition-colors duration-500"></div>
-            <div class="h-10 w-10 bg-black group-hover:bg-blue-600 transition-colors duration-500"></div>
+<body class="font-poppins bg-body text-white">
+    <!-- ナビゲーションバー -->
+    <header class="py-6">
+        <div class="container mx-auto flex justify-between items-center px-8 md:px-14 lg-px-24 w-full">
+            <div class="text-lg font-bold">ShinCode.com</div>
+            <div class="space-x-12 font-bold hidden md:flex items-cnter">
+                <a href="#home" class="navber-tag">ホーム</a>
+                <a href="#portfolio" class="navber-tag">お問い合わせ</a>
+                <a href="#client" class="navber-tag">お客様</a>
+                <a href="#contact" class="navber-tag"><button>お問い合わせ</button></a>
+            </div>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
-
-
-
-        <div class="h-40 w-40 bg-green-400 peer-hover:bg-orange-500 transition-colors duration-500 peer-hover:animate-spin"></div>
-    </div>
-    <div class="grid grid-cols-2 gap-10 p-5 sm:grid-cols-3">
-        <div class="bg-purple-400 sm:bg-red-400 aspect-video w-full"></div>
-        <div class="bg-purple-400 sm:bg-red-400  aspect-video w-full"></div>
-        <div class="bg-purple-400 sm:bg-red-400  aspect-video w-full"></div>
-        <div class="bg-purple-400 sm:bg-red-400  aspect-video w-full"></div>
-        <div class="bg-purple-400 sm:bg-red-400  aspect-video w-full"></div>
-        <div class="bg-purple-400 sm:bg-red-400  aspect-video w-full"></div>
-    </div>
-
-    <div class="flex flex-col gap-4 ml-10">
-        <div class="bg-orange-400 size-20"></div>
-        <div class="bg-orange-400 h-20 w-20"></div>
-        <div class="bg-orange-400 h-20 w-20"></div>
-        <div class="bg-orange-400 h-20 w-20"></div>
-        <div class="bg-orange-400 h-20 w-20"></div>
-        <div class="bg-orange-400 h-20 w-20"></div>
-
-    </div>
+    </header>
 </body>
 
 </html>
